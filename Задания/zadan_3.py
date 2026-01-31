@@ -14,3 +14,6 @@ def build_tree(pairs, root):
 pairs = [("root", "A"), ("root", "B"), ("A", "C"), ("B", "D"), ("D", "E")]
 result = {"root": build_tree(pairs, "root")}
 print(result)
+
+
+

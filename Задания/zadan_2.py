@@ -20,9 +20,11 @@ if __name__ == "__main__":
     result = compare_objects(
         {"a": 1, "b": 2},
         {"a": 3, "b": 2},
-        keys=["a", "b"]
-    )
+        keys=["a", "b"])
     print(result)
+
+
+
 
 
     
